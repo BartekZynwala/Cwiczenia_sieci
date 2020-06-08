@@ -67,4 +67,4 @@ aby załączyć obrazek
 
 
 
-![my network](Untitled Diagram.png)
+![my network](cw1.png)
