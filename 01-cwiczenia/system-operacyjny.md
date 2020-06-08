@@ -38,7 +38,7 @@
 | -------------             |:-------------:        | -----:                    |
 | nazwa                     | linux                 | centos 7                  |
 | cfg interfejsów           | centos 7 | /etc/sysconfig/network-scripts         |
-| program (parametry sieci) | niewiem               |                           |
+| program (parametry sieci) | test                  |                           |
 | ....                      | .....                 |                           |
 | nazwa                     | Alpine Linux          |                           |
 | Konfiguracja ip           | ``$ ip all ``         | show all eth interfaces   | 
