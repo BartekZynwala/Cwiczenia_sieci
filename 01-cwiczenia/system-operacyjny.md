@@ -18,11 +18,11 @@
    * Windows 
 
 2. Sprawdź oraz przygotuj charakterystykę dla przykładowego urządzenia w Twojej sieci domowej
-   * Adres
-   * Maska
-   * Adres bramy
-   * DNS 1
-   * DNS 2
+   * Adres - 192.168.0.80
+   * Maska - 255.255.255.0
+   * Adres bramy - 192.168.0.1
+   * DNS 1 - pk4.ku.k-neti.com
+   * DNS 2 - ...
   
     Przygotuj dokumentację graficzną Twojej sieci domowej, uwzględnij adresy i urządzenia
 
