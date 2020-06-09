@@ -94,7 +94,7 @@ Dlaczego? Jak? Co? :)
 -------------------------
 | Parametr | wartość | komentarz(opcionalny) |
 | ------------- |:-------------:| -----:|
-| Lokalizacja pliku z konfiguracją sieci| | |
+| Lokalizacja pliku z konfiguracją sieci|etc/network/interfaces | |
 | UP -> Wyłączenie interfejsu sieciowego| | |
 | DOWN -> Włączenie interfejsu sieciowego| | |
 | Sprawdzenie obecnych parametrów | | |
