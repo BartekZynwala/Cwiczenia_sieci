@@ -95,9 +95,9 @@ Dlaczego? Jak? Co? :)
 | Parametr | wartość | komentarz(opcionalny) |
 | ------------- |:-------------:| -----:|
 | Lokalizacja pliku z konfiguracją sieci|etc/network/interfaces | |
-| UP -> Wyłączenie interfejsu sieciowego| | ip link set eth1 up|
-| DOWN -> Włączenie interfejsu sieciowego| | ip link set eth1 down|
-| Sprawdzenie obecnych parametrów | ip addr show eth1| |
+| UP -> Wyłączenie interfejsu sieciowego|ip link set eth1 up | |
+| DOWN -> Włączenie interfejsu sieciowego|ip link set eth1 down | |
+| Sprawdzenie obecnych parametrów |ip addr show eth1 | |
 | lista wszystkich interfejsów |ip a | |
 | Które interfejsy jakie porty słuchają | | |
 
