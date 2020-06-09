@@ -99,5 +99,5 @@ Dlaczego? Jak? Co? :)
 | DOWN -> Włączenie interfejsu sieciowego|ip link set eth1 down | |
 | Sprawdzenie obecnych parametrów |ip addr show eth1 | |
 | lista wszystkich interfejsów |ip a | |
-| Które interfejsy jakie porty słuchają | | |
+| Które interfejsy jakie porty słuchają |netstat | |
 
