@@ -98,6 +98,6 @@ Dlaczego? Jak? Co? :)
 | UP -> Wyłączenie interfejsu sieciowego| | |
 | DOWN -> Włączenie interfejsu sieciowego| | |
 | Sprawdzenie obecnych parametrów | | |
-| lista wszystkich interfejsów |ip addr show eth0 | |
+| lista wszystkich interfejsów |ip addr | |
 | Które interfejsy jakie porty słuchają | | |
 
