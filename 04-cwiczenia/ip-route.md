@@ -2,12 +2,12 @@
 
 
 * routing
-    * dodaj trasę default
-    * dodaj trasę przez bramę
-    * dodaj trasę przez interfejs
+    * dodaj trasę default - ip route add default via xxx
+    * dodaj trasę przez bramę - ip route add xxx via xxx
+    * dodaj trasę przez interfejs 
     * usuń trasę
     * zmień trasę
-    * pobierz trasę dla adresu
+    * pobierz trasę dla adresu - ip route get xxx
      
 ### ip 
 | subcommand    |  polecenie   | opis  |
