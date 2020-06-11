@@ -4,9 +4,9 @@
 * routing
     * dodaj trasę default - ip route add default via xxx
     * dodaj trasę przez bramę - ip route add xxx via xxx
-    * dodaj trasę przez interfejs 
-    * usuń trasę
-    * zmień trasę
+    * dodaj trasę przez interfejs - sysctl net.ipv4.ip_forward=1
+    * usuń trasę sysctl net.ipv4.ip_forward=0
+    * zmień trasę 
     * pobierz trasę dla adresu - ip route get xxx
      
 ### ip 
