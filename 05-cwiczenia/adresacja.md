@@ -136,21 +136,9 @@ Mając dany adres hosta i maskę znajdź:
 | ``192.168.48.0``   | 4094|192.168.63.255 |
 | ``192.168.64.0``   | 4094|192.168.79.255 |
 | ``192.168.80.0``   | 4094|192.168.95.255 |
+etc
 
-2. 
-  * Podziel sieć ``172.16.0.0/16`` na 6 równych podsieci.
 
-3. 
-  * Podziel sieć ``192.168.1.0/24``, tak aby każda podsieć miała 11 użytkowników.
-
-4. 
-  * Podziel sieć ``10.0.0.0/8`` na 5 podsieci. 
-    * Podsieć A ma posiadać 100 000 użytkowników,
-    * B – 10 000 użytkowników
-    * C – 3 000 użytkowników
-    * D – 500 użytkowników
-    * E – 2 użytkowników.
-    
 ## Wizualizacja
 
 ![krakow siec akademicka](cracow-core.jpeg)
