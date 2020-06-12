@@ -9,14 +9,14 @@
 ### Jak policzyć?
 #### Adres sieci
 
-1. bierzemy 3 pierwsze oktety i przeliczamy je na bin
+1. bierzemy adres ip oraz maske
 2.
 3.
 
 #### Adres rozgłoszeniowy
 
-1. 4 oktet przeliczamy na bin
-2.
+1.odwrotność maski sieci
+2.bitor z adresu sieci  orad odwrotności maski (w dziesietnym)
 3.
 
 
@@ -105,11 +105,11 @@ Mając dany adres hosta i maskę znajdź:
 | ----------- | -----------  |
 | ``ip``    | 192.168.1.145| 
 | ``maska``   | 255.255.255.128 | 
-| ``adres sieci``   | |
-| ``liczba hostów``   | |
-| ``host - min``   | | 
-| ``host - max``   | | 
-| ``broadcast``   | | 
+| ``adres sieci``   |192.168.1.128/25 |
+| ``liczba hostów``   |126 |
+| ``host - min``   |		192.168.1.129 | 
+| ``host - max``   |		192.168.1.254 | 
+| ``broadcast``   | 192.168.1.255| 
  
 ## Zadanie
 
@@ -117,25 +117,25 @@ Mając dany adres hosta i maskę znajdź:
 ##   
 | Parametr |  wartość   | 
 | ----------- | -----------  |
-| ``ip``    | 192.168.1.145| 
-| ``maska``   | 255.255.255.128 | 
-| ``adres sieci``   | |
-| ``liczba hostów``   | |
-| ``host - min``   | | 
-| ``host - max``   | | 
-| ``broadcast``   | | 
+| ``ip``    | 172.16.128.64| 
+| ``maska``   | 255.255.0.0 | 
+| ``adres sieci``   |	172.16.0.0/16 |
+| ``liczba hostów``   |	65534 |
+| ``host - min``   |172.16.0.1	 | 
+| ``host - max``   |172.16.255.254 | 
+| ``broadcast``   | 	172.16.255.255| 
 
 1.
   * Podziel sieć ```192.168.1.0/16``` na 16 równych podsieci
 ##   
 | Adres sieci |  zakres hostów   | Adres Rozgłoszeniowy |
 | ----------- | -----------  | ----------- |
-| ``192.168.1.0``    | | |
-| ````   | | |
-| ````   | | |
-| ````   | | |
-| ````   | | |
-| ````   | | |
+| ``192.168.0.0``    | 4094 | 192.168.15.255|
+| ``192.168.16.0``   |4094 |192.168.31.255 |
+| ``192.168.32.0``   | 4094|192.168.47.255 |
+| ``192.168.48.0``   | 4094|192.168.63.255 |
+| ``192.168.64.0``   | 4094|192.168.79.255 |
+| ``192.168.80.0``   | 4094|192.168.95.255 |
 
 2. 
   * Podziel sieć ``172.16.0.0/16`` na 6 równych podsieci.
