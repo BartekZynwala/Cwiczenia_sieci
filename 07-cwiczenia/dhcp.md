@@ -25,18 +25,18 @@ Jaki parametry konfiguracji można ustawić z wykorzystaniem DHCP
 | -------------                 |
 | Adres IP                      |
 | Maska podsieci                |
-| |
-| |
-| |
-| |
-| |
+| Addres DNS|
+| maksymalny czas oczekiwania na odpowiedź w protokole ARP|
+| wartość MTU (maksymalny rozmiar pakietu)|
+| adres IP serwera SMTP|
+|adresy serwerów NIS |
 
 ## Przydatne polecenia
 
 | zachowanie                    | polecenia               | komentarz                |
 | -------------                 |:-------------:            | -----:                    |
-| porzucanie dzierżawy adresu v1|  |          |
-| porzucanie dzierżawy adresu v2|  |          |
+| porzucanie dzierżawy adresu v1|  |     ipconfig /release     |
+| porzucanie dzierżawy adresu v2|  |     ipconfig /renew     |
 
 
 ## Materiały
